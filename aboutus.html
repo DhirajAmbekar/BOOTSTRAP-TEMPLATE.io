@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@400;500;700&family=Barlow:wght@300&family=Catamaran:wght@500&family=Cormorant+SC:wght@500&family=Dosis:wght@300;400;500&family=Ibarra+Real+Nova:wght@500&family=Lato&family=Open+Sans:wght@300&family=Oswald&family=Poppins&family=Raleway:ital,wght@0,500;0,600;0,700;0,800;0,900;1,700&family=Roboto&family=Roboto+Condensed&family=Source+Sans+Pro:wght@400;600&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css" type="text/css">
+    <link rel="stylesheet" href="./aboutus.css" type="text/css">
+    <link rel="stylesheet" href="./tp.css" type="text/css">
+
+    <title>Bootstrap Themes</title>
+</head>
+<body >
+  <nav class="navbar navbar-expand-lg position-fixed w-100">
+    <div class="container-fluid">
+      <a class="navbar-brand text-dark ps-3" href="./index.html">Boomerang
+    </a>
+    
+      <div class="navbar-toggler cart_border py-4"aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="px-2 py-3 d-inline">
+            <a type="button" class="position-relative " href="./cart.html">
+                <i class='bx bx-cart-alt bx-flip-horizontal fs-1 nav-hover' ></i>
+                <span class="position-absolute top-0 start-0 translate-middle badge rounded-pill bg-danger icon3">
+                  3 
+                </span>
+            </a></div>
+            
+        <i class='bx bx-menu bx-tada fs-1 nav-hover' data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"  ></i>
+       
+     
+    </div> 
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item ps-lg-0 ps-2  ">
+          <button class="btn-5 text-md-center text-start">  <a class="nav-link nav-hover " aria-current="page" href="./index.html">HOME</a></button>
+          </li>
+          <li>
+          </li>
+          <li class="nav-item ps-lg-0 ps-2 dropdown">
+            <button class="btn-5 text-md-center text-start" data-bs-toggle="dropdown"  role="button" id="navbarDropdown" aria-expanded="false"> <a class="nav-link nav-hover" href="">PAGES</a></button>
+            <ul class="dropdown-menu nav-hover" aria-labelledby="navbarDropdown">
+                <li>
+                    <a class="dropdown-item nav-hover" href="./aboutus.html">ABOUT US</a>
+                    </li>
+                <li>
+                    <a class="dropdown-item nav-hover" href="./service.html">SERVICES</a>
+                </li>
+                <li>
+                    <a class="dropdown-item nav-hover" href="./faqs.html">FAQS</a>
+                    </li>
+              </ul>
+          </li>
+          <li class="nav-item ps-lg-0 ps-2">
+            <button class="btn-5 text-md-center text-start"><a class="nav-link nav-hover" href="./portfolio.html">PORTFOLIO</a></button>
+          </li>
+          <li class="nav-item ps-lg-0 ps-2">
+            <button class="btn-5 text-md-center text-start"><a class="nav-link nav-hover" href="./blog.html">BLOG</a></button>
+          </li>
+          <li class="nav-item ps-lg-0 ps-2">
+            <button class="btn-5 text-md-center text-start">  <a class="nav-link nav-hover" href="./shop.html">SHOP</a></button>
+          </li>
+          <li class="nav-item ps-lg-0 ps-2">
+            <button class="btn-5 text-md-center text-start">   <a class="nav-link nav-hover" href="./classicchair.html">SINGLE PRODUCT</a></button>
+          </li>
+          <li class="nav-item ps-lg-0 ps-2">
+            <button class="btn-5 text-md-center text-start">   <a class="nav-link nav-hover" href="./checkout.html">CHECKOUT</a></button>
+          </li>
+        </ul>
+      </div>    
+    </div>
+    <div class="d-lg-block d-none"> 
+    <div class="nav-bar_icon cart_border d-flex px-4  ">
+        <div class="px-2 py-3 ">
+            <a type="button" class="position-relative nav-hover" href="./cart.html">
+                <i class='bx bx-cart-alt bx-flip-horizontal fs-4 ' ></i>
+                <span class="position-absolute top-0 start-0 translate-middle badge rounded-pill bg-danger icon3">
+                  3 
+                </span>
+            </a>
+            </div>
+          <div >
+            <a class="btn px-2 py-3 nav-hover" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+          
+                <i class='bx bx-menu bx-tada fs-4' ></i>
+            </a>
+          </div>
+        
+        </div>  
+    </div>    
+  </nav>
+      <div class="position-relative">
+      <div class="background_ig overflow-hidden" id="uponit">
+        <div class="row w-100 main">
+            <div class="col-md-10 col-12 m-auto pt-md-5 pt-0 pb-md-3 pb-0 text-center main_bg text-light">
+               <h1 class="main_bg pt-md-5 pt-1  ">We are a creative agency
+                based in New York</h1>
+            </div>
+            <div class="col-md-6 col-12 mx-auto pb-md-5 pb-0 text-center main1_bg text-light">
+                <p class="main1_bg">Creating digital products for creative people.</p>
+            </div>
+        </div>
+        </div>
+      </div>
+      <div class="offcanvas offcanvas-end bg-dark text-light" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel" data-bs-scroll="true">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close text-reset ms-auto bg-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" style="overflow-x:hidden ;" >
+          <div class="row">
+            <div class="col-12">
+                <div class="off-img m-auto w-25">
+                    <img src="./img/logo-light-2.png" class="img-fluid icon-img" alt="img">
+                </div>
+            </div>
+            <div class="col-12 mt-4 pb-5 text-center">
+                <div class="col-10 m-auto text-white-50">
+                    See how users experience your website in realtime to see changes.
+                </div>
+            </div>
+            <div class="row g-2 pt-2 pb-5">
+                <div class="col-4">
+                    <div class="offport-img ">
+                        <img src="./img/1.jpg" class="img-fluid" alt="img">
+                        <div class="over">
+                            <img src="./img/5.jpg" class="img-fluid" alt="">
+                        </div>    
+                    </div>
+                  
+    
+                </div>
+                <div class="col-4">
+                    <div class="offport-img ">
+                        <img src="./img/2.jpg" class="img-fluid" alt="img">
+                        <div class="over">
+                            <img src="./img/8.jpg" class="img-fluid" alt="">
+                        </div>    
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="offport-img ">
+                        <img src="./img/3.jpg" class="img-fluid" alt="img">
+                        <div class="over">
+                            <img src="./img/9.jpg" class="img-fluid" alt="">
+                        </div>    
+                    </div>
+    
+                </div>
+                <div class="col-4">
+                    <div class="offport-img ">
+                        <img src="./img/4.jpg" class="img-fluid" alt="img">
+                        <div class="over">
+                            <img src="./img/6.jpg" class="img-fluid" alt="">
+                        </div>    
+                    </div>
+    
+                </div>
+                <div class="col-4">
+                    <div class="offport-img ">
+                        <img src="./img/5.jpg" class="img-fluid" alt="img">
+                        <div class="over">
+                            <img src="./img/9.jpg" class="img-fluid" alt="">
+                        </div>    
+                    </div>
+    
+                </div>
+                <div class="col-4">
+                    <div class="offport-img ">
+                        <img src="./img/6.jpg" class="img-fluid" alt="img">
+                        <div class="over">
+                            <img src="./img/4.jpg" class="img-fluid" alt="">
+                        </div>    
+                    </div>
+    
+                </div>
+                <div class="col-4">
+                    <div class="offport-img ">
+                        <img src="./img/7.jpg" class="img-fluid" alt="img">
+                        <div class="over">
+                            <img src="./img/3.jpg" class="img-fluid" alt="">
+                        </div>    
+                    </div>
+    
+                </div>
+                <div class="col-4">
+                    <div class="offport-img ">
+                        <img src="./img/8.jpg" class="img-fluid" alt="img">
+                        <div class="over">
+                            <img src="./img/2.jpg" class="img-fluid" alt="">
+                        </div>    
+                    </div>
+    
+                </div>
+                <div class="col-4">
+                    <div class="offport-img ">
+                        <img src="./img/9.jpg" class="img-fluid" alt="img">
+                        <div class="over">
+                            <img src="./img/1.jpg" class="img-fluid" alt="">
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 text-center">
+                <div class="off_icon mt-3 pb-5">
+                    <a href="#"><i class='bx bxl-facebook bx-flashing-hover border p-2' ></i></a>
+                    <a href="#"> 
+                    <i class='bx bxl-twitter bx-tada-hover border p-2' ></i>
+                    </a>
+                    <a href="#">
+                    <i class='bx bxl-instagram-alt bx-burst-hover border p-2' ></i>
+                    </a>
+                    <a  href="#">
+                    <i class='bx bxl-linkedin-square bx-tada-hover border p-2' ></i>
+                    </a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+
+
+            <!-- button up -->
+
+
+      <section class="position-relative " style="background-color:white ;">
+        <div>
+            <a class="btn  position-fixed bottom-0 end-0 m-4 p-1 rounded-circle " style="z-index:100; background-color: rgba(255, 255, 255, 0.229);box-shadow: 0 0 10px rgba(0, 0, 0, 0.52);"  href="#uponit">
+                <i class='bx bx-chevron-up bx-fade-up-hover fs-1 ' ></i>
+            </a>
+          </div>
+          <div class="container pt-5  border-bottom">
+            <div class="row row-cols-md-2 py-5 row-cols-1">
+                <div class="col ">
+                    <div class="img_about me-5">
+                        <img src="./img/about-4.jpg" class="img-fluid" alt="img">
+                    </div>
+                </div>
+                <div class="col p-5">
+                    <div class=" easy_about" >
+                        <h1>Easy and Simple.</h1>
+                        <p>See how your users experience your website in realtime or view trends to see any changes in performance.</p>
+                        <p> <i class='bx bx-right-arrow-alt bx-fade-left'></i> Web Design</p>
+                        <p><i class='bx bx-right-arrow-alt bx-fade-left-hover'></i> Web Applications </p>
+                        <p><i class='bx bx-right-arrow-alt bx-fade-left-hover'></i> Digital Strategy</p>
+                        <p> <i class='bx bx-right-arrow-alt bx-fade-left-hover'></i>Information Architecture</p>
+                        <p> <i class='bx bx-right-arrow-alt bx-fade-left-hover'></i>Information Architecture</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+          </section>
+          <section  style="overflow: hidden; background-color: white;" >
+            <div class="container py-5">
+            <div class="row row-cols-md-3  row-cols-1">
+                <div class="card col mega1 visual_box" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-2 pb-0">
+                        <i class='bx bx-run text-primary m-3 col-2'  style="font-size: 50px;" ></i>
+                        <i class=''></i>
+                    </div>
+                      <div class="col-md-10 pb-0">
+                        <div class="card-body">
+                          <h5 class="card-title">Mega Menus
+                        </h5>
+                        <p class="text-black-50 mb-0" style="font-size:15px ;">See how your users experience your website in realtime or view trends to see any changes in performance over time.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card col mega2 visual_box" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-2 pb-0">
+                        <i class='bx bx-tv text-primary m-3 col-2'  style="font-size: 50px;" ></i>
+                      </div>
+                      <div class="col-md-10 pb-0">
+                        <div class="card-body">
+                          <h5 class="card-title">Fully Responsive
+                        </h5>
+                        <p class="text-black-50 pb-0" style="font-size:15px ;">See how your users experience your website in realtime or view trends to see any changes in performance over time.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card col mega3 visual_box" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-2 pb-0">
+                        <i class='bx bx-smile text-primary m-3 col-2'  style="font-size: 50px;" ></i>
+                      </div>
+                      <div class="col-md-10 pb-0">
+                        <div class="card-body">
+                          <h5 class="card-title">Friendly Support
+                        </h5>
+                        <p class="text-black-50 pb-0" style="font-size:15px ;">See how your users experience your website in realtime or view trends to see any changes in performance over time.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card col mega4 visual_box" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-2 pb-0">
+                        <i class='bx bx-edit-alt text-primary m-3 col-2'  style="font-size: 50px;" ></i>
+                      </div>
+                      <div class="col-md-10 pb-0">
+                        <div class="card-body">
+                          <h5 class="card-title">Trendy Design
+                        </h5>
+                        <p class="text-black-50 pb-0" style="font-size:15px ;">See how your users experience your website in realtime or view trends to see any changes in performance over time.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card col mega5 visual_box" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-2 pb-0">
+                        <i class='bx bx-star text-primary m-3 col-2'  style="font-size: 50px;" ></i>
+                      </div>
+                      <div class="col-md-10 pb-0">
+                        <div class="card-body">
+                          <h5 class="card-title">User Experience
+                        </h5>
+                        <p class="text-black-50 pb-0" style="font-size:15px ;">See how your users experience your website in realtime or view trends to see any changes in performance over time.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card col mega6 visual_box" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-2 pb-0">
+                        <i class='bx bx-slider text-primary m-3 col-2'  style="font-size: 50px;" ></i>
+                      </div>
+                      <div class="col-md-10 pb-0">
+                        <div class="card-body">
+                          <h5 class="card-title">Sidebars
+                        </h5>
+                        <p class="text-black-50 pb-0" style="font-size:15px ;">See how your users experience your website in realtime or view trends to see any changes in performance over time.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card col mega7 visual_box" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-2 pb-0">
+                        <i class='bx bx-building-house text-primary m-3 col-2'  style="font-size: 50px;" ></i>
+                      </div>
+                      <div class="col-md-10 pb-0">
+                        <div class="card-body">
+                          <h5 class="card-title">Great Support
+                        </h5>
+                        <p class="text-black-50 pb-0" style="font-size:15px ;">See how your users experience your website in realtime or view trends to see any changes in performance over time.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card col mega8 visual_box" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-2 pb-0">
+                        <i class='bx bx-brush-alt text-primary m-3 col-2'  style="font-size: 50px;" ></i>
+                      </div>
+                      <div class="col-md-10 pb-0">
+                        <div class="card-body">
+                          <h5 class="card-title">Trendy Design
+                        </h5>
+                        <p class="text-black-50 pb-0" style="font-size:15px ;">See how your users experience your website in realtime or view trends to see any changes in performance over time.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card col mega9 visual_box" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-2 pb-0">
+                        <i class='bx bxl-tailwind-css text-primary m-3 col-2'  style="font-size: 50px;" ></i>
+                      </div>
+                      <div class="col-md-10 pb-0">
+                        <div class="card-body">
+                          <h5 class="card-title">Visual Composer
+                        </h5>
+                        <p class="text-black-50 pb-0" style="font-size:15px ;">See how your users experience your website in realtime or view trends to see any changes in performance over time.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            </div>
+          </section>
+
+          <section class=" pt-5 border" style="background-color:white ; overflow: hidden;">
+            <div class="container">
+                <div class="row row-cols-md-2 row-cols-1">
+                    <div class="col">
+                        <div class="flexible_box">
+                            <img src="./img/ipad.png" class="img-fluid" alt="img">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row row-cols-1">
+                            <div class="col mt-5 ms-md-5 ms-0">
+                                <div class="flexible_box1 mt-5 pt-5 ps-3" style="width:90% ;">
+                                    <h2>Flexible & Lightweight.</h2>
+                                <p class="text-black-50 lh-lg">Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover.</p>
+                                </div>
+                            </div>
+                            <div class="col mt-3 flexible_side">
+                                <div class="row g-0">
+                                <div class="col-2 me-2" style="width:13% ;">
+                                    <i class='bx bx-trophy text-primary ' style="font-size: 50px; " ></i>
+                                </div>
+                                <div class="col-10">
+                                <div class="flexible_box1 w-100">
+                                <h6>Visual Composer</h6>
+                                <p class="text-black-50"  style="width:90% ;">Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover.</p>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col mt-3 flexible_side">
+                                <div class="row g-0">
+                                <div class="col-2 me-2" style="width:13% ;">
+                                    <i class='bx bx-layout bx-fade-up-hover text-primary '  style="font-size: 50px; " ></i>
+                                </div>
+                                <div class="col-10">
+                                <div class="flexible_box1 w-100">
+                                <h6>Revolution Slider
+                                </h6>
+                                <p class="text-black-50"  style="width:90% ;">Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover.</p>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col mt-3 flexible_side">
+                                <div class="row g-0">
+                                <div class="col-2 me-2" style="width:13% ;">
+                                    <i class='bx bx-data text-primary' style="font-size: 50px; "></i>
+                                </div>
+                                <div class="col-10">
+                                <div class="flexible_box1 w-100">
+                                <h6>User Experience</h6>
+                                <p class="text-black-50"  style="width:90% ;">Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover.</p>
+                                </div>
+                                </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </section>
+
+
+
+
+      <section>
+        <div class="page-bg ">
+        <div class="container ">
+            <div class="row order row-cols-md-4 row-cols-1 ">
+                <div class="col">
+                    <div class="col text-center ">
+                        <h1>1,538</h1>
+                        <p >Happy Clients</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col text-center">
+                        <h1>2,124</h1>
+                        <p >Total downloads</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col text-center">
+                        <h1>3,128</h1>
+                        <p >Awards Won</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col text-center">
+                        <h1>9,534</h1>
+                        <p >Theme Users</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      </section>
+
+      <section class="pb-5" style="background-color:white ;">
+        <div class="row text-center pb-3 pt-5">
+            <h1 class="col-12 mt-5 mb-2">Digital Design.</h1>
+            <p class="col-md-6 col-12 my-2 m-auto text-black-50"  >See how your users experience your website in realtime or view trends to see any changes in performance over time.</p>
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-12 mb-3 ">
+                <img src="./img/about-1.jpg" class="img-fluid rounded" style="box-shadow:0 0 5px rgba(0, 0, 0, 0.678),0 0 20px rgba(0, 0, 0, 0.108) ;" alt="">
+            </div>
+            <div class="col-md-4 col-12">
+                <img src="./img/about-2.jpg" class="img-fluid rounded" style="box-shadow:0 0 5px rgba(0, 0, 0, 0.675) ;" alt="">
+
+            </div>
+            <div class="row row-cols-md-3 row-cols-1 ">
+                <div class="col">
+                    <div class="developer p-3">
+                       <p class="fs-5"> <big class="fs-2">01</big> Development
+                       </p>
+                       <p class="text-black-50">See how your users experience your website in realtime or view trends to see any changes in performance over time.
+                    </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="developer  p-3">
+                       <p class="fs-5"> <big class="fs-2">02</big> Branding
+
+                       </p>
+                       <p class="text-black-50">See how your users experience your website in realtime or view trends to see any changes in performance over time.
+                    </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="developer  p-3">
+                       <p class="fs-5"> <big class="fs-2">03</big> Web Design
+
+                       </p>
+                       <p class="text-black-50">See how your users experience your website in realtime or view trends to see any changes in performance over time.
+                    </p>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+
+
+    <section class="alvrt">
+        <div class="alvrt_bgimg parallax"></div>
+        <div class="alvert_bgimg1">
+          <div id="carouselExampleIndicators" class="carousel slide py-5 on" data-bs-ride="carousel">
+              <div class="carousel-indicators ">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner container py-2">
+                <div class="carousel-item active ">
+                  <div class="row row-cols-1">
+                  <div class="col text-center onon">
+                      <img src="./img/1c.jpg" class="img-flui d-block m-auto" alt="...">
+                      <p>Imperfection is beauty, madness is genius and it's better to be <br> absolutely ridiculous than absolutely boring.</p>
+                      <h6>Albert Einstein</h6>
+                  </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row row-cols-1">
+                      <div class="col text-center onon">
+                          <img src="./img/1c.jpg" class="img-flui d-block m-auto" alt="...">
+                          <p>Imperfection is beauty, madness is genius and it's better to be <br> absolutely ridiculous than absolutely boring.</p>
+                          <h6>Marilyn Monoroe</h6>
+                      </div>
+                      </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row row-cols-1">
+                      <div class="col text-center onon">
+                          <img src="./img/1c.jpg" class="img-flui d-block m-auto" alt="...">
+                          <p>Imperfection is beauty, madness is genius and it's better to be <br> absolutely ridiculous than absolutely boring.</p>
+                          <h6>Ralph Waldo Emerson</h6>
+                      </div>
+                      </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prv-icon" aria-hidden="true">
+                  <i class='bx bx-left-arrow-alt bx-flip-vertical bx-fade-left fs-1' ></i>
+                </span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-contol-next-icon" aria-hidden="true"><i class='bx bx-right-arrow-alt bx-fade-right bx-flip-vertical fs-1' ></i></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            </div>
+        </section>
+  
+
+
+
+
+      <section style="background-color:rgb(253, 249, 249);" class="py-5">
+        <div class="container py-5">
+        <div class="row text-center pb-3 pt-5">
+            <h1 class="col-12 mt-5 mb-2">Creative People.</h1>
+            <p class="col-md-6 col-12 my-2 m-auto text-black-50"  >See how your users experience your website in realtime or view trends to see any changes in performance over time.</p>
+            <div class="row row-cols-md-3 row-cols-1 g-3">
+                <div class="col">
+                     <div class="img-fluid">
+                        <img src="./img/1p.jpg" class="people_box" alt="img">
+                        <div class="people_over d-flex flex-column ">
+                            <i class='bx bxl-twitter bx-tada-hover bb-icon fs-6 text-light' style="margin-top: 100px; margin-right:140px;"></i>
+                            <i class='bx bxl-instagram-alt bb-icon bx-burst-hover fs-6 text-light' style="margin-top: 10px; margin-right:140px;"></i>
+                            <i class='bx bxl-pinterest-alt bb-icon bx-flip-horizontal fs-6 text-light' style="margin-top: 10px; margin-right:140px;"></i>
+                            <h6 class="emma">Emma Connor</h6>
+                            <p class="emma2">Designer</p>
+                        </div>
+
+                     </div>
+                </div>
+                <div class="col ">
+                    <div class="img-fluid">
+                        <img src="./img/2p.jpg" class="people_box" alt="img">
+                        <div class="people_over d-flex flex-column ">
+                            <i class='bx bxl-twitter bx-tada-hover bb-icon fs-6 text-light' style="margin-top: 100px; margin-right:140px;"></i>
+                            <i class='bx bxl-instagram-alt bb-icon bx-burst-hover fs-6 text-light' style="margin-top: 10px; margin-right:140px;"></i>
+                            <i class='bx bxl-pinterest-alt bb-icon bx-flip-horizontal fs-6 text-light' style="margin-top: 10px; margin-right:140px;"></i>
+                            <h6 class="emma">Richard Bauer</h6>
+                            <p class="emma2">Developer</p>
+                        </div>
+
+                     </div>
+                </div>
+                <div class="col">
+                    <div class="img-fluid">
+                        <img src="./img/3p.jpg" class="people_box" alt="img">
+                        <div class="people_over d-flex flex-column ">
+                            <i class='bx bxl-twitter bx-tada-hover bb-icon fs-6 text-light' style="margin-top: 100px; margin-right:140px;"></i>
+                            <i class='bx bxl-instagram-alt bb-icon bx-burst-hover fs-6 text-light' style="margin-top: 10px; margin-right:140px;"></i>
+                            <i class='bx bxl-pinterest-alt bb-icon bx-flip-horizontal fs-6 text-light' style="margin-top: 10px; margin-right:140px;"></i>
+                            <h6 class="emma">John Pope</h6>
+                            <p class="emma2">Founder</p>
+                        </div>
+
+                     </div>
+                </div>
+                <div class="col">
+                    <div class="img-fluid">
+                        <img src="./img/4p.jpg" class="people_box" alt="img">
+                        <div class="people_over d-flex flex-column ">
+                            <i class='bx bxl-twitter bx-tada-hover bb-icon fs-6 text-light' style="margin-top: 100px; margin-right:140px;"></i>
+                            <i class='bx bxl-instagram-alt bb-icon bx-burst-hover fs-6 text-light' style="margin-top: 10px; margin-right:140px;"></i>
+                            <i class='bx bxl-pinterest-alt bb-icon bx-flip-horizontal fs-6 text-light' style="margin-top: 10px; margin-right:140px;"></i>
+                            <h6 class="emma">Sara Smith</h6>
+                            <p class="emma2">Designer</p>
+                        </div>
+
+                     </div>
+                </div>
+                <div class="col">
+                    <div class="img-fluid">
+                        <img src="./img/5p.jpg" class="people_box" alt="img">
+                        <div class="people_over d-flex flex-column ">
+                            <i class='bx bxl-twitter bx-tada-hover bb-icon fs-6 text-light' style="margin-top:100px; margin-right:140px;"></i>
+                            <i class='bx bxl-instagram-alt bb-icon bx-burst-hover fs-6 text-light' style="margin-top: 10px; margin-right:140px;"></i>
+                            <i class='bx bxl-pinterest-alt bb-icon bx-flip-horizontal fs-6 text-light' style="margin-top: 10px; margin-right:140px;"></i>
+                            <h6 class="emma">Emma Connor</h6>
+                            <p class="emma2">Designer</p>
+                        </div>
+
+                     </div>
+                </div>
+                <div class="col">
+                    <div class="img-fluid">
+                        <img src="./img/6p.jpg" class="people_box" alt="img">
+                        <div class="people_over d-flex flex-column ">
+                            <i class='bx bxl-twitter bx-tada-hover bb-icon fs-6 text-light' style="margin-top:100px; margin-right:140px;"></i>
+                            <i class='bx bxl-instagram-alt bb-icon bx-burst-hover fs-6 text-light' style="margin-top: 10px; margin-right:140px;"></i>
+                            <i class='bx bxl-pinterest-alt bb-icon bx-flip-horizontal fs-6 text-light' style="margin-top: 10px; margin-right:140px;"></i>
+                            <h6 class="emma">Peter Chapman</h6>
+                            <p class="emma2">Founder</p>
+                        </div>
+
+                     </div>
+                </div>
+            </div>
+            <div class="col-12 mt-5">
+                <button class="btn btn-outline-primary py-3 px-5 rounded-pill">About us</button>
+            </div>
+        </div>
+        </div>
+      </section>
+      <section style="background:#f7f7f7 ;">
+        <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active mt-5  border" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1"  class="mt-5 border" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner container py-5">
+              <div class="carousel-item active ">
+                <div class="row row-col-4">
+                    <div class="col text-center ">
+                    <img src="./img/1.png" class="img-fluid" alt="...">
+                    </div>    
+                    <div class="col text-center ">
+                        <img src="./img/2.png" class="img-fluid" alt="...">
+                    </div>    
+                    <div class="col text-center">
+                        <img src="./img/3.png" class="img-fluid" alt="...">
+                    </div>    
+                    <div class="col text-center">
+                        <img src="./img/4.png" class="img-fluid" alt="...">
+                    </div>    
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row row-col-4">
+                    <div class="col text-center ">
+                    <img src="./img/5.png" class="img-fluid" alt="...">
+                    </div>    
+                    <div class="col text-center ">
+                        <img src="./img/6.png" class="img-fluid" alt="...">
+                    </div>    
+                    <div class="col text-center">
+                        <img src="./img/7.png" class="img-fluid" alt="...">
+                    </div>    
+                    <div class="col text-center">
+                        <img src="./img/1.png" class="img-fluid" alt="...">
+                    </div>    
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" bg-client">
+            <img src="./img/module-18.jpg" class="img-fluid" alt="">
+        </div>
+      </section>
+
+
+
+           <!-- footer -->
+      <footer class="bg-dark ">
+        <div class="container">
+            <div class="row row-cols-md-4 row-cols-1 py-5">
+                <div class="col">
+                    <div class="">
+                        <div class="col text-light foot_about">
+                            <h6 style="letter-spacing:3px; font-size: 14px;">ABOUT US</h6>
+                        </div>
+                        <div class="col text-secondary" style="font-size:13px;">
+                         <p>   Map where your photos were taken and discover local points of interest. Map where your photos.</p>
+                        </div>
+                        <div class="col text-secondary" style="font-size:13px;">
+                           <p> Location: 12 London Avenue, Suite 18
+                            E-mail: support@theme.com
+                            Phone: 8 800 123 4567</p>
+                        </div>
+                        <div class="col d-flex  fs-5 ">
+                            <a href="" class="text-light text-decoration-none">
+                            <i class='bx bxl-twitter bx-tada-hover pt-2 pe-2' ></i>
+                            <i class='bx bxl-facebook-circle bx-tada-hover p-2' ></i>
+                            <i class='bx bxl-instagram bx-tada-hover p-2' ></i>
+                            <i class='bx bxl-linkedin-square bx-tada-hover p-2' ></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col foot_about">
+                        <h6 class=" text-light" style="letter-spacing:3px; font-size: 14px;">RECENT POSTS</h6>
+                    </div>
+                    <div class="col text-white-50" style="font-size:13px;">
+                        <p>Map where your photos were taken and discover local points. <br>
+                            <span class="text-secondary" style="font-size:11px;">May 8, 2018</span></p>
+                        
+                    </div>
+                    <div class="col text-white-50" style="font-size:13px;">
+                        <p>Map where your photos were taken and discover local points. <br>
+                            <span class="text-secondary" style="font-size:11px;">April 8, 2018</span></p>
+                    </div>
+                    <div class="col text-white-50 " style="font-size:13px;">
+                        <p>Map where your photos were taken and discover local points. <br>
+                            <span class="text-secondary" style="font-size:11px;">September 8, 2018</span></p>
+                    </div>
+                </div> 
+                <div class="col">
+                    <div class="col foot_about">
+                        <h6 class=" text-light" style="letter-spacing:3px; font-size: 14px;">TWITTER FEED</h6>
+                    </div>
+                </div> 
+                <div class="col">
+                    <div class="col foot_about">
+                        <h6 class=" text-light" style="letter-spacing:3px; font-size: 14px;">PORTFOLIO</h6>
+                    </div>
+                    <div class="row row-cols-3 g-2">
+                        <div class="col">
+                            <div class="img-fluid">
+                                <img src="./img/1.jpg" class="w-100 h-100" alt="img">
+                                <div class="foot-over">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="img-fluid">
+                                <img src="./img/2.jpg" class="w-100 h-100" alt="img">
+                                <div class="foot-over">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="img-fluid">
+                                <img src="./img/3.jpg" class="w-100 h-100" alt="img">
+                                <div class="foot-over">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="img-fluid">
+                                <img src="./img/4.jpg" class="w-100 h-100" alt="img">
+                                <div class="foot-over">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="img-fluid">
+                                <img src="./img/5.jpg" class="w-100 h-100" alt="img">
+                                <div class="foot-over">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="img-fluid">
+                                <img src="./img/6.jpg" class="w-100 h-100" alt="img">
+                                <div class="foot-over">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+            </div>
+            
+        </div>
+        <div class="col-12 text-center text-white-50  p-4"  style="letter-spacing:3px; font-size: 10px; border-top: solid 1px rgba(128, 128, 128, 0.459);">
+            © 2018 Boomerang, All Rights Reserved. Design with love by <a href="#" class="text-decoration-none text-light">2theme </a>  
+        </div>
+      </footer>
+</body>
+</html>
